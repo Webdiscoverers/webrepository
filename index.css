@@ -22,10 +22,14 @@
 .contactText {
   font-family: fantasy;
   font-size: 26px;
+  text-align: center;
+}
+
+@media (min-width: 800px){
+.lPadding {
   padding-top: 65px;
   padding-bottom: 105px;
-  text-align: center;
-
+}
 }
 
 .contactTitle {
