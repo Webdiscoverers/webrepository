@@ -6,11 +6,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Web Discoverers</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="Footer-with-logo.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </head>
 <style>
+  .contactText {
+    font-family: fantasy;
+    font-size: 26px;
+    padding-top: 65px;
+    padding-bottom: 105px;
+    text-align: center;
+
+  }
+  .title {
+    font-family: fantasy;
+    font-size: 29px;
+    color: #c9302c !important;
+  }
+  .contactTitle {
+    font-family: fantasy;
+    font-size: 35px;
+    color: #c9302c !important;
+  }
+
+  @media (max-device-width: 700px) {
+    .container{
+        min-width: 390px;
+    }
+  }
+
   #p.container {
      background-image: #ffffff url('https://img1.wsimg.com/isteam/stock/100492/:/rs=w:538,h:269,cg:true,m/cr=w:538,h:269') repeat center center;
 }
@@ -39,7 +64,7 @@
             </div>
         </div>
     </nav>
-    <div class="container" style="background: aliceblue;">
+    <div class="container" style="background: aliceblue; height:100%">
 
         <div class="row">
             <div class="col-xs-15 col-sm-6">
@@ -68,9 +93,9 @@
             </div>
           </div>
 
-          <div class="container">
-          <hr>
-          <div class="row">
+          <!-- <div class="container" id="myFooter"> -->
+
+          <div class="row" id="myFooter">
               <div class="col-xs-7" style="text-align:right; font-size: 10px;">
                   <footer>
                       <p> Copyright &copy; 2017 Web Discoverers - All Rights Reserved</p>
@@ -82,7 +107,7 @@
                   </footer>
               </div>
           </div>
-        </div>
-    </div>
+        <!-- </div> -->
+
 </body>
 </html>
