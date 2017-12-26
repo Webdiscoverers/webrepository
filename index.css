@@ -10,7 +10,7 @@
 }
 
 @media (max-device-width: 700px) {
-  .container{
+  .container, .contactFooterWidth {
         min-width: 390px;
   }
 }
